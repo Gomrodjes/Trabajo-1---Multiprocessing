@@ -4,7 +4,7 @@ import multiprocessing
 import generate_file_function
 import aux_functions
 
-carpeta = "C:/Users/Jesus/Desktop/Trabajo 1 -PSP/files"
+carpeta = "../Trabajo 1 -PSP/files"
 archivo_principal = os.path.join(carpeta, "logs.txt")
 archivo_resultados = os.path.join(carpeta, "resultados.txt")
 
