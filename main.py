@@ -52,16 +52,16 @@ def main():
     resultados4 = cola4.get()
 
     generate_file_function.generate_result(
-        carpeta, archivo_resultados, resultados1, "**** LINEAS TOTALES ****"
+        carpeta, archivo_resultados, resultados1, "LINEAS->TOTAL"
     )
     generate_file_function.overwrite_result(
-        carpeta, archivo_resultados, resultados2, "**** TODOS LOS ERRORES EXISTENTES ****"
+        carpeta, archivo_resultados, resultados2, "TIPO->VALOR"
     )
     generate_file_function.overwrite_result(
-        carpeta, archivo_resultados, resultados3, "**** LAS 10 IPS MAS USADAS ****"
+        carpeta, archivo_resultados, resultados3, "IP->FRECUENCIA"
     )
     generate_file_function.overwrite_result(
-        carpeta, archivo_resultados, resultados4, "**** LOS DIAS CON ERRORES ****"
+        carpeta, archivo_resultados, resultados4, "DIAS->FRECUENCIAERRORES"
     )
 
 

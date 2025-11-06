@@ -67,7 +67,7 @@ def generate_result(carpeta, archivo, resultados, texto):
         if texto:
             file.write(texto + "\n")
             for clave, valor in resultados.items():
-                linea = str(clave) + " : " + str(valor) + "\n"
+                linea = str(clave) + "->" + str(valor) + "\n"
                 file.write(linea)
 
 
@@ -79,5 +79,5 @@ def overwrite_result(carpeta, archivo, resultados, texto):
         if texto:
             file.write(texto + "\n")
             for clave, valor in resultados.items():
-                linea = str(clave) + " : " + str(valor) + "\n"
+                linea = str(clave) + "->" + str(valor) + "\n"
                 file.write(linea)
